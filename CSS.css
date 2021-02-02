@@ -10,7 +10,7 @@ h1 span:nth-child(4){color:#34a853}
 h1 span:nth-child(5){color:#4285f4}
 
  li{
-  font-size: 18px;
+  font-size: 24px;
   line-height: 200%;
   margin: 20px;
      }
@@ -24,7 +24,7 @@ h1 span:nth-child(5){color:#4285f4}
    color: green;
    }
  #A{
-   font-size: 18px;font-weight: bold;
+   font-weight: bold;
    }
  .B{
    font-weight: bold;
@@ -33,14 +33,24 @@ h1 span:nth-child(5){color:#4285f4}
    text-align: center;
    font-size: 35px;
    }
- p {
+ .list {
+   text-align: center;
+ }
+
+ .Ref {
    display: flex;
    }
- .REFERENCE {
+ .Ref_window {
    text-align: center;
    width: 300px;
    height: 300px;
    border: 1px solid black; margin:30px;
-   font-size: 20px;
-
+   font-size: 30px;
+   border-radius: 10px;
+   }
+ .Ref_click {
+   color: #007bff;
+   background-color: transparent;
+   background-image: none;
+   border-color: #007bff;
    }
