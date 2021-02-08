@@ -1,54 +1,67 @@
-h1 {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 45px;
-  }
-h1 span:nth-child(1){color:#4285f4}
-h1 span:nth-child(2){color:#ea4335}
-h1 span:nth-child(3){color:#fbbc05}
-h1 span:nth-child(4){color:#34a853}
-h1 span:nth-child(5){color:#4285f4}
+html{
+  background-color: beige;
+}
 
- li{
-  font-size: 24px;
-  line-height: 200%;
-  margin: 20px;
-     }
- ul {
-   height: 80px;
+h2 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 40px;
+  }
+h2 span:nth-child(1){color:#4285f4}
+h2 span:nth-child(2){color:#ea4335}
+h2 span:nth-child(3){color:#fbbc05}
+h2 span:nth-child(4){color:#34a853}
+h2 span:nth-child(5){color:#4285f4}
+
+#contents {
+   float:center;
+   height: 70px;
    display: flex;
+   flex-wrap:wrap;
+   justify-content: space-evenly;
+  align-content: center;
    border-bottom: 3px solid black;
-   margin-top: 5px;
+   margin-top: 2px;
     }
- ul a:hover{
+
+#contents a:hover{
    color: green;
    }
+
+ li{
+    font-size: 1.0rem;
+    line-height: 200%;
+    margin: 20px;
+   }
+
  #A{
    font-weight: bold;
    }
+
  .B{
    font-weight: bold;
    }
  h3 {
-   text-align: center;
-   font-size: 35px;
+   font-size: 30px;
    }
- .list {
-   text-align: center;
- }
 
  .Ref {
    display: flex;
    }
  .Ref_window {
    text-align: center;
-   width: 300px;
+   width: 500px;
    height: 300px;
    border: 1px solid black; margin:30px;
-   font-size: 30px;
+   font-size: 20px;
    border-radius: 10px;
    }
  .Ref_click {
+   margin-top:11.5rem;
+   padding: .5rem 1rem;
+   font-size: 1.25rem;
+   line-height: .5;
+   border-radius: .3rem;
    color: #007bff;
    background-color: transparent;
    background-image: none;
