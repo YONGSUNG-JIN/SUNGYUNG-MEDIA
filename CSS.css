@@ -1,5 +1,8 @@
 html{
   background-color: beige;
+  font-family: arial, verdana, sans-serif, monospace;
+  <link
+  href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
 }
 
 h2 {
@@ -43,8 +46,11 @@ h2 span:nth-child(5){color:#4285f4}
    }
  h3 {
    font-size: 30px;
-   }
-
+   font-family: 'Ranchers', cursive;
+    }
+ .페이지{
+   line-height: 2;
+ }
  .Ref {
    display: flex;
    }
