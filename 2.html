@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
 </head>
 
 <nav>
@@ -24,19 +25,48 @@
   </h2>
 
   <h3>REFERENCE</h3>
-  <p>
+  <p class="페이지">
   성영미디어와 함께한 작품들은 아래와 같습니다.
   </p>
    <div class="Ref">
      <div class="Ref_window">단편 영화
-       <button class="Ref_click">재생</button>
+       <input id="Ref_play_a" type="button" value="PLAY" class="Ref_click" onclick="
+       if(document.querySelector('#Ref_play_a').value === 'PLAY'){
+        document.querySelector('#Ref_play_a').style.backgroundColor = 'coral';
+        document.querySelector('#Ref_play_a').value = 'PAUSE';
+      } else {
+        document.querySelector('#Ref_play_a').style.backgroundColor = 'white';
+        document.querySelector('#Ref_play_a').style.color = 'blue';
+        document.querySelector('#Ref_play_a').value = 'PLAY';
+      }
+        ">
+      </input>
      </div>
      <div class="Ref_window">캠페인
-       <button type="button" name="button" class="Ref_click">재생</button>
+       <input id="Ref_play_b" type="button" value="PLAY" class="Ref_click" onclick="
+       if(document.querySelector('#Ref_play_b').value === 'PLAY'){
+        document.querySelector('#Ref_play_b').style.backgroundColor = 'coral';
+        document.querySelector('#Ref_play_b').value = 'PAUSE';
+      } else {
+        document.querySelector('#Ref_play_b').style.backgroundColor = 'white';
+        document.querySelector('#Ref_play_b').style.color = 'blue';
+        document.querySelector('#Ref_play_b').value = 'PLAY';
+      }
+        ">
+      </input>
      </div>
      <div class="Ref_window">이벤트
-       <button type="button" name="button" class="Ref_click">재생</button>
-     </div>
+       <input id="Ref_play_c" type="button" value="PLAY" class="Ref_click" onclick="
+       if(document.querySelector('#Ref_play_c').value === 'PLAY'){
+        document.querySelector('#Ref_play_c').style.backgroundColor = 'coral';
+        document.querySelector('#Ref_play_c').value = 'PAUSE';
+      } else {
+        document.querySelector('#Ref_play_c').style.backgroundColor = 'white';
+        document.querySelector('#Ref_play_c').style.color = 'blue';
+        document.querySelector('#Ref_play_c').value = 'PLAY';
+      }
+        ">
+      </input>
    </div>
   <p>
     <iframe width="640" height="376.5" src="https://www.youtube.com/embed/lRfAuzU4lp0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

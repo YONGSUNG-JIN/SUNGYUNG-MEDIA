@@ -1,10 +1,9 @@
 html{
   background-color: beige;
-  <link
-  href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
-}
+  }
 
 h2 {
+  font-weight: bold;
   text-align: center;
   margin-top: 15px;
   font-size: 40px;
@@ -32,6 +31,7 @@ h2 span:nth-child(5){color:#4285f4}
 
  li{
     font-size: 1.0rem;
+    font-family: 'Ranchers', cursive, monospace;
     line-height: 200%;
     margin: 20px;
    }
@@ -45,13 +45,14 @@ h2 span:nth-child(5){color:#4285f4}
    }
  h3 {
    font-size: 30px;
-   font-family: 'Ranchers', cursive;
+   font-family: 'Ranchers', cursive, monospace;
     }
  .페이지{
    line-height: 2;
  }
  .Ref {
    display: flex;
+   font-weight: bold;
    }
  .Ref_window {
    text-align: center;
